@@ -1,0 +1,78 @@
+body{
+  font-family: 'segeo ui', sans-serif;
+  background-color: #000000;
+  padding: 40px;
+  color: #d800d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body{
+  font-family: 'Dacing scrip',cursive;
+  background: linear-gradient(to right,#d8d8d5,000000);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* Estilo general del formulario */
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #778899;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Etiquetas de los campos */
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #80c4de;
+}
+
+/* Campos de entrada */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="asunto"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 3px solid #20b2aa;
+  border-radius: 6px;
+  background-color: #ffffe0;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  border-color: #ffa500;
+  outline: none;
+}
+
+/* Botón de enviar */
+form button[type="submit"] {
+  background-color: #008fff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #00ffff;
+}
